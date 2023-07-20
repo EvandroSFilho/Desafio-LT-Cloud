@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Detalhes do Imóvel</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom"><!--Cabeçalho-->
+        <div class="container-fluid col-lg-9 col-xl-10 col-xxmx-lg-4 mx-xl-5 l-1xxl-5">
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid bg-dark rounded-3 border" src="img/logo_white.png" alt="LT cloud soluções em apps"
+                    style="height:50px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-lg-4 mx-xl-5 mx-xxl-5">
+                        <a class="nav-link active fw-bold" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-lg-4 mx-xl-5 mx-xxl-5">
+                        <a class="nav-link active fw-bold" href="#">Vendas</a>
+                    </li>
+                    <li class="nav-item mx-lg-4 mx-xl-5 mx-xxl-5">
+                        <a class="nav-link active fw-bold" href="#">Alugel</a>
+                    </li>
+                    <li class="nav-item mx-lg-4 mx-xl-5 mx-xxl-5">
+                        <a class="nav-link active fw-bold" href="#">Sobre</a>
+                    </li>
+                </ul>
+                <div class="dropdown-center">
+                    <button class="btn btn-secondary dropdown-toggle rounded-4" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #F55D2E; border-color: #F55D2E;"><i
+                            class="bi bi-person-circle px-2"></i>Entrar</button>
+                    <ul class="dropdown-menu rounded-4 shadow">
+                        <li><a class="dropdown-item" href="#">Entrar como <strong>Inquilino</strong></a></li>
+                        <li><a class="dropdown-item" href="#">Entrar como <strong>Proprietário</strong></a></li>
+                        <li><a class="dropdown-item" href="#">Entrar como <strong>Corretor</strong></a></li>
+                        <li><a class="dropdown-item" href="#"><strong>Cadastre-se</strong></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid col-md-11"><!--Galeria + Botões-->
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+            <div class="col p-1 p-md-2">
+                <img src="img/sala1.png" class="img-fluid rounded" alt="Sala Comercial">
+            </div>
+            <div class="row row-cols-sm-2 m-auto">
+                <div class="col-sm-6 col-md-6 p-1 p-xl-2">
+                    <img src="img/sala5.png" class="img-fluid rounded" alt="Sala Comercial">
+                </div>
+                <div class="col-sm-6 col-md-6 p-1 p-xl-2">
+                    <img src="img/sala2.jpg" class="img-fluid rounded" alt="Sala Comercial">
+                </div>
+                <div class="col-sm-6 col-md-6 p-1 p-xl-2">
+                    <img src="img/sala3.jpg" class="img-fluid rounded" alt="Sala Comercial">
+                </div>
+                <div class="col-sm-6 col-md-6 p-1 p-xl-2 position-relative">
+                    <img src="img/sala4.jpg" class="img-fluid opacity-50 rounded" alt="Sala Comercial">
+                    <samp class="position-absolute top-50 start-50 translate-middle fw-bold">+10 Fotos</samp>
+                </div>
+            </div>
+            <div class="col-9 col-sm-8 col-md-8 col-lg-11 col-xl-10 col-xxl-10">
+                <button class="col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2 my-1 btn btn-light border-dark"
+                    type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#414243"
+                        class="bi bi-camera-fill me-2" viewBox="0 1 16 16">
+                        <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                        <path
+                            d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z" />
+                    </svg>Fotos
+                </button>
+                <button class="col-md-3 col-lg-2 col-xl-2 col-xxl-2 my-1 btn btn-light border border-dark"
+                    type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#414243" viewBox="0 0 576 512"
+                        class="me-2">
+                        <path
+                            d="M408 120c0 54.6-73.1 151.9-105.2 192c-7.7 9.6-22 9.6-29.6 0C241.1 271.9 168 174.6 168 120C168 53.7 221.7 0 288 0s120 53.7 120 120zm8 80.4c3.5-6.9 6.7-13.8 9.6-20.6c.5-1.2 1-2.5 1.5-3.7l116-46.4C558.9 123.4 576 135 576 152V422.8c0 9.8-6 18.6-15.1 22.3L416 503V200.4zM137.6 138.3c2.4 14.1 7.2 28.3 12.8 41.5c2.9 6.8 6.1 13.7 9.6 20.6V451.8L32.9 502.7C17.1 509 0 497.4 0 480.4V209.6c0-9.8 6-18.6 15.1-22.3l122.6-49zM327.8 332c13.9-17.4 35.7-45.7 56.2-77V504.3L192 449.4V255c20.5 31.3 42.3 59.6 56.2 77c20.5 25.6 59.1 25.6 79.6 0zM288 152a40 40 0 1 0 0-80 40 40 0 1 0 0 80z" />
+                    </svg>Mapa
+                </button>
+                <button class="col-md-4 col-lg-2 col-xl-2 col-xxl-2 my-1 btn btn-light border border-dark"
+                    type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#414243" viewBox="0 0 512 512"
+                        class="me-2">
+                        <path
+                            d="M320 64A64 64 0 1 0 192 64a64 64 0 1 0 128 0zm-96 96c-35.3 0-64 28.7-64 64v48c0 17.7 14.3 32 32 32h1.8l11.1 99.5c1.8 16.2 15.5 28.5 31.8 28.5h38.7c16.3 0 30-12.3 31.8-28.5L318.2 304H320c17.7 0 32-14.3 32-32V224c0-35.3-28.7-64-64-64H224zM132.3 394.2c13-2.4 21.7-14.9 19.3-27.9s-14.9-21.7-27.9-19.3c-32.4 5.9-60.9 14.2-82 24.8c-10.5 5.3-20.3 11.7-27.8 19.6C6.4 399.5 0 410.5 0 424c0 21.4 15.5 36.1 29.1 45c14.7 9.6 34.3 17.3 56.4 23.4C130.2 504.7 190.4 512 256 512s125.8-7.3 170.4-19.6c22.1-6.1 41.8-13.8 56.4-23.4c13.7-8.9 29.1-23.6 29.1-45c0-13.5-6.4-24.5-14-32.6c-7.5-7.9-17.3-14.3-27.8-19.6c-21-10.6-49.5-18.9-82-24.8c-13-2.4-25.5 6.3-27.9 19.3s6.3 25.5 19.3 27.9c30.2 5.5 53.7 12.8 69 20.5c3.2 1.6 5.8 3.1 7.9 4.5c3.6 2.4 3.6 7.2 0 9.6c-8.8 5.7-23.1 11.8-43 17.3C374.3 457 318.5 464 256 464s-118.3-7-157.7-17.9c-19.9-5.5-34.2-11.6-43-17.3c-3.6-2.4-3.6-7.2 0-9.6c2.1-1.4 4.8-2.9 7.9-4.5c15.3-7.7 38.8-14.9 69-20.5z" />
+                    </svg>Street view
+                </button>
+                <button class="col-md-5 col-lg-3 col-xl-3 col-xxl-2 my-1 btn btn-light border border-dark"
+                    type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" idth="18" height="18" viewBox="0 0 512 512" fill="#414243"
+                        class="me-2">
+                        <path
+                            d="M512 96c0 50.2-59.1 125.1-84.6 155c-3.8 4.4-9.4 6.1-14.5 5H320c-17.7 0-32 14.3-32 32s14.3 32 32 32h96c53 0 96 43 96 96s-43 96-96 96H139.6c8.7-9.9 19.3-22.6 30-36.8c6.3-8.4 12.8-17.6 19-27.2H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320c-53 0-96-43-96-96s43-96 96-96h39.8c-21-31.5-39.8-67.7-39.8-96c0-53 43-96 96-96s96 43 96 96zM117.1 489.1c-3.8 4.3-7.2 8.1-10.1 11.3l-1.8 2-.2-.2c-6 4.6-14.6 4-20-1.8C59.8 473 0 402.5 0 352c0-53 43-96 96-96s96 43 96 96c0 30-21.1 67-43.5 97.9c-10.7 14.7-21.7 28-30.8 38.5l-.6 .7zM128 352a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM416 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
+                    </svg>Adicionar a rota
+                </button>
+                <button class="col-md-4 col-lg-2 col-xl-2 col-xxl-2 my-1 btn btn-light border border-dark"
+                    type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#414243" viewBox="0 0 512 512"
+                        class="me-2">
+                        <path
+                            d="M439 7c9.4-9.4 24.6-9.4 33.9 0l32 32c9.4 9.4 9.4 24.6 0 33.9l-87 87 39 39c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8H296c-13.3 0-24-10.7-24-24V72c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2l39 39L439 7zM72 272H216c13.3 0 24 10.7 24 24V440c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-39-39L73 505c-9.4 9.4-24.6 9.4-33.9 0L7 473c-9.4-9.4-9.4-24.6 0-33.9l87-87L55 313c-6.9-6.9-8.9-17.2-5.2-26.2s12.5-14.8 22.2-14.8z" />
+                    </svg>Comparar
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid col-md-11"><!--Descrição + Botões com valores-->
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-2">
+            <div class="col-xl-7">
+                <div class="mt-3 m-auto">
+                    <h5 class="text-start">Laje corporativa para alugar, 150m<sup>2</sup>, em São José dos Campos</h5>
+                    <p class="text-start opacity-75">Av. Andrômeda, 3209 - Bosque dos Eucaliptos, São José dos Campos -
+                        SP</p>
+                </div>
+                <div class="row row-cols-1 my-4 m-auto">
+                    <span class="col-8 col-sm-auto me-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512"
+                            fill="#F15B2A" class="me-1">
+                            <path
+                                d="M.2 468.9C2.7 493.1 23.1 512 48 512l96 0 320 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-48 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-64 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-64 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-64-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-64-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-48c0-26.5-21.5-48-48-48L48 0C21.5 0 0 21.5 0 48L0 368l0 96c0 1.7 .1 3.3 .2 4.9z" />
+                        </svg>105m<sup>2</sup>
+                    </span>
+                    <span class="col-8 col-sm-auto me-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 640 512"
+                            fill="#F15B2A" class="me-2">
+                            <path
+                                d="M171.3 96H224v96H111.3l30.4-75.9C146.5 104 158.2 96 171.3 96zM272 192V96h81.2c9.7 0 18.9 4.4 25 12l67.2 84H272zm256.2 1L428.2 68c-18.2-22.8-45.8-36-75-36H171.3c-39.3 0-74.6 23.9-89.1 60.3L40.6 196.4C16.8 205.8 0 228.9 0 256V368c0 17.7 14.3 32 32 32H65.3c7.6 45.4 47.1 80 94.7 80s87.1-34.6 94.7-80H385.3c7.6 45.4 47.1 80 94.7 80s87.1-34.6 94.7-80H608c17.7 0 32-14.3 32-32V320c0-65.2-48.8-119-111.8-127zM434.7 368a48 48 0 1 1 90.5 32 48 48 0 1 1 -90.5-32zM160 336a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                        </svg>8 vagas
+                    </span>
+                    <span class="col-8 col-sm-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512"
+                            fill="#F15B2A" class="me-2">
+                            <path
+                                d="M64 131.9C64 112.1 80.1 96 99.9 96c9.5 0 18.6 3.8 25.4 10.5l16.2 16.2c-21 38.9-17.4 87.5 10.9 123L151 247c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0L345 121c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-1.3 1.3c-35.5-28.3-84.2-31.9-123-10.9L170.5 61.3C151.8 42.5 126.4 32 99.9 32C44.7 32 0 76.7 0 131.9V448c0 17.7 14.3 32 32 32s32-14.3 32-32V131.9zM256 352a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm64 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm0-128a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm64 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm0-128a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm64 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm32-32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
+                        </svg>3 banheiros
+                    </span>
+                </div>
+                <div class="m-auto">
+                    <h4 class="text-start mb-3">Descrição do imóvel</h4>
+                    <p class="text-start">Lorem ipsum cubilia velit suspendisse aptent eros fringilla commodo
+                        venenatis, non class accumsan consectetur mi ultricies rhoncus consequat, neque hendrerit aenean
+                        ac dictumst enim semper urna...</p>
+                    <p class="text-start">Et quam mattis suspendisse sit hac nostra odio neque, proin urna
+                        nisl nec leo ipsum libero sed, quisque aptent himenaeos sit vel quisque luctus. Mattis tempus
+                        ornare habitant maecenas.</p>
+                    <p class="text-start">Mattis fringilla tortor quisque tortor blandit luctus id etiam
+                        aenean vivamus dictum, consequat gravida curae et hac eros hendrerit amet feugiat augue commodo
+                        donec amet metus.</p>
+                </div>
+            </div>
+            <div class="col-8 col-xl-4 p-1 m-auto">
+                <div
+                    class="col-sm-7 col-md-6 col-lg-9 col-xl-11 col-xxl-10 m-auto rounded-4 border border-dark border-opacity-10 shadow">
+                    <div
+                        class="row row-cols-1 row-cols-sm-2 m-2 pb-1 pt-3 border-bottom border-dark border-2 border-opacity-50">
+                        <samp class="h5 text-start">Total/mês</samp>
+                        <samp class="h5 text-sm-end">R$ 8.500,00</samp>
+                    </div>
+                    <div class="row row-cols-1 row-cols-sm-2 m-2">
+                        <samp class="text-start">Aluguel</samp>
+                        <span class="text-sm-end">R$ 6.676.,00</span>
+                    </div>
+                    <div class="row row-cols-1 row-cols-sm-2 m-2">
+                        <span class="text-start">Concominio</span>
+                        <span class="text-sm-end">R$ 1.505,00</span>
+                    </div>
+                    <div class="row row-cols-1 row-cols-sm-2 m-2">
+                        <span class="text-start">IPTU</span>
+                        <span class="text-sm-end">R$ 319,00</span>
+                    </div>
+                    <div class="row row-cols-1 row-cols-sm-2 m-2 pb-2 border-bottom border-dark">
+                        <span class="text-start">Valor m<sup>2</sup></span>
+                        <span class="text-sm-end">R$ 69,00</span>
+                    </div>
+                    <div class="row row-cols-1 row-cols-sm-2 m-2">
+                        <h6>Cód. Imóvel S1902</h6>
+                    </div>
+                    <div class="row row-cols-1 row-cols-sm-2 m-2 pb-2 border-bottom border-dark">
+                        <span class="text-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-suit-heart me-1" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z" />
+                            </svg>Salvar
+                        </span>
+                        <span class="text-sm-end">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"
+                                fill="#000000" class="me-1">
+                                <path
+                                    d="M503.691 189.836L327.687 37.851C312.281 24.546 288 35.347 288 56.015v80.053C127.371 137.907 0 170.1 0 322.326c0 61.441 39.581 122.309 83.333 154.132 13.653 9.931 33.111-2.533 28.077-18.631C66.066 312.814 132.917 274.316 288 272.085V360c0 20.7 24.3 31.453 39.687 18.164l176.004-152c11.071-9.562 11.086-26.753 0-36.328z" />
+                            </svg>Compartilhar
+                        </span>
+                    </div>
+                    <div class="d-grid gap-2 m-2 mb-3">
+                        <button class="btn btn-primary mb-2" type="button"
+                            style="background-color: #F15B2A; border-color: #F15B2A;">Selecionar para visita</button>
+                        <button class="btn btn-outline" type="button"
+                            style="color: #F15B2A; border-color: #F15B2A;">Fazer Proposta</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid col-11 m-auto"><!--Proximidades-->
+        <h5 class="text-start">Nas Proximidades do imóvel</h5>
+        <div class="row row-cols-sm-2 m-auto py-3">
+
+            <div class="col-md-6 col-lg-5 col-xl-4 text-start me-xl-1 my-2">
+                <h6 class="ms-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 640 512" fill="#F15B2A"
+                        class="me-2">
+                        <path
+                            d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z" />
+                    </svg>Educação
+                </h6>
+                <div class="row row-cols-1 row-cols-sm-2 m-auto">
+                    <span class="col-7 col-sm-9 col-md-9 col-lg-7 col-xl-9">Colégio Futuro</span>
+                    <span class="col-5 col-sm-3 col-md-3 col-lg-5 col-xl-3 text-end">22m</span>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 m-auto">
+                    <span class="col-7 col-sm-9 col-md-9 col-lg-7 col-xl-9">UniSaber Universidade</span>
+                    <span class="col-5 col-sm-3 col-md-3 col-lg-5 col-xl-3 text-end">39m</span>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-5 col-xl-4 text-start my-2">
+                <h6 class="ms-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 448 512" fill="#F15B2A"
+                        class="me-2">
+                        <path
+                            d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z" />
+                    </svg>Gastronomia
+                </h6>
+                <div class="row row-cols-1 row-cols-sm-2 m-auto">
+                    <span class="col-7 col-sm-9 col-md-9 col-lg-7 col-xl-9">Bom Sabor Restaurante</span>
+                    <span class="col-5 col-sm-3 col-md-3 col-lg-5 col-xl-3 text-end">60m</span>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 m-auto">
+                    <span class="col-7 col-sm-9 col-md-9 col-lg-7 col-xl-9">Gaúcho Churrascaria</span>
+                    <span class="col-5 col-sm-3 col-md-3 col-lg-5 col-xl-3 text-end">89m</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-4 text-start me-xl-1 my-2">
+                <h6 class="ms-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 576 512" fill="#F15B2A"
+                        class="me-2">
+                        <path
+                            d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                    </svg>Mercados
+                </h6>
+                <div class="row row-cols-1 row-cols-sm-2 m-auto">
+                    <span class="col-7 col-sm-9 col-md-9 col-lg-7 col-xl-9">Supermercado BomD+</span>
+                    <span class="col-5 col-sm-3 col-md-3 col-lg-5 col-xl-3 text-end">42m</span>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 m-auto">
+                    <span class="col-7 col-sm-9 col-md-9 col-lg-7 col-xl-9">Companheiro MiniMercado</span>
+                    <span class="col-5 col-sm-3 col-md-3 col-lg-5 col-xl-3 text-end">100m</span>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-5 col-xl-4 text-start my-2">
+                <h6 class="ms-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 576 512" fill="#F15B2A"
+                        class="me-2">
+                        <path
+                            d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H96V32H64zm64 0V480H448V32H128zM512 480c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H480V480h32zM256 176c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v48h48c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H320v48c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V288H208c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16h48V176z" />
+                    </svg>Saúde e Bem-Estar
+                </h6>
+                <div class="row row-cols-1 row-cols-sm-2 m-auto">
+                    <span class="col-7 col-sm-9 col-md-9 col-lg-7 col-xl-9">Farmácia NovaEra</span>
+                    <span class="col-5 col-sm-3 col-md-3 col-lg-5 col-xl-3 text-end">28m</span>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 m-auto">
+                    <span class="col-7 col-sm-9 col-md-9 col-lg-7 col-xl-9">Academia Vita</span>
+                    <span class="col-5 col-sm-3 col-md-3 col-lg-5 col-xl-3 text-end">54m</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-lg-start border-top border-dark border-2 border-opacity-50"><!--Rodapé-->
+        <div class="container-fluid py-2" style="background-color:#F5F7FF">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 m-auto">
+                <div class="col-md-6 col-lg-6 col-xl-6 text-sm-start pb-2 pt-sm-2 ">
+                    <img class="img-fluid bg-dark rounded-4" src="img/logo_white.png" alt="LT cloud soluções em apps">
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6 text-sm-end">
+                    <h6 class="fw-bold ">Atendimento ao Cliente</h6>
+                    <p><i class=""></i> +55(11) 2599-8476</p>
+                    <p><i class=""></i>space@space.com.br</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pb-2" style="background-color: #DCDCDC">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-xl-3 m-auto">
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover cols-1 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-2"
+                    href="#">Politica de privacidade</a>
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover cols-1 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-2"
+                    href="#">Termos de condições de uso</a>
+                <span class="text-lg-end col-lg-6 col-xl-6 col-xxl-8">© 2022 SpaceRE - Todos os direitos
+                    reservados.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
